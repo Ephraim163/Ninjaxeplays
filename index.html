@@ -1,17 +1,34 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NinjaxePlays.eth</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="text-align: center; font-family: sans-serif;">
-  <h1>🎮 Welcome to NinjaxePlays.eth</h1>
-  <p>This site is now live on GitHub Pages!</p>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎮 NinjaxePlays.eth</h1>
+      <p>Live Streaming via Restream</p>
+    </header>
 
-  <!-- Embed your stream here later -->
-  <p>Streaming setup coming soon...</p>
+    <main>
+      <!-- Replace YOUR_EMBED_URL with actual Restream embed URL -->
+      <iframe
+        src="https://restream.io/embed?token=YOUR_EMBED_TOKEN"
+        frameborder="0"
+        allowfullscreen
+        width="100%"
+        height="500px"
+        title="Restream Live Stream">
+      </iframe>
+    </main>
 
-  <footer style="margin-top: 40px;">
-    <p>ENS linked: <strong>ninjaxeplays.eth</strong></p>
-  </footer>
+    <footer>
+      <p>💠 Connected to ENS: <strong>ninjaxeplays.eth</strong></p>
+    </footer>
+  </div>
 </body>
 </html>
